@@ -27,8 +27,6 @@ namespace POOExercicio
                 empregadoFeliz.ReceberAumento();
             }
 
-
-
             public void CalcularSalarioAnual(string pNome, string sobrenome)
             {
                 Empregado empregado = BuscarEmpregado(pNome, sobrenome);

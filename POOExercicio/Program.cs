@@ -25,13 +25,14 @@ internal class Program
         while (true)
         {
             Console.Clear();
-            int posicao = CentralizarTexto("     __                    __       ____                 ");
+            int posicao = CentralizarTexto("    ___   __                       __          ");
 
-            EscreverNaPosicao(@"         __                    __       ____                 
-                             __ / /__  ___ ____    ___/ /__ _  / __/__  ___________ _
-                            / // / _ \/ _ `/ _ \  / _  / _ `/ / _// _ \/ __/ __/ _ `/
-                            \___/\___/\_, /\___/  \_,_/\_,_/ /_/  \___/_/  \__/\_,_/ 
-                                     /___/                                          ",
+            EscreverNaPosicao(@"    ___   __                       __          
+                               /   | / /_____ __________ _____/ /___ _____ 
+                              / /| |/ __/ __ `/ ___/ __ `/ __  / __ `/ __ \
+                             / ___ / /_/ /_/ / /__/ /_/ / /_/ / /_/ / /_/ /
+                            /_/  |_\__/\__,_/\___/\__,_/\__,_/\__,_/\____/ 
+                                               ",
              posicao,
              5);
 
@@ -84,21 +85,18 @@ internal class Program
             }
         }
     }
+
     static void EscreverNaPosicao(string texto, int left, int top)
     {
         Console.SetCursorPosition(left, top);
         Console.WriteLine(texto);
     }
 
-
     static int CentralizarTexto(string labelOpcao)
     {
         int posicao = (Console.BufferWidth / 2) - labelOpcao.Length / 2;
-
         return posicao;
     }
-
-
     static void ImprimirControlesMenu()
     {
         Console.SetCursorPosition(3, Console.BufferHeight - 1);
