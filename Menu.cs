@@ -78,3 +78,29 @@ static void ImprimirMenu()
         }
     }
 }
+
+
+
+
+
+static void EscreverNaPosicao(string texto, int left, int top)
+{
+    Console.SetCursorPosition(left, top);
+    Console.WriteLine(texto);
+}
+
+
+static int CentralizarTexto(string labelOpcao)
+{
+    int posicao = (Console.BufferWidth / 2) - labelOpcao.Length / 2;
+
+    return posicao;
+}
+
+
+static void ImprimirControlesMenu()
+{
+    Console.SetCursorPosition(3, Console.BufferHeight - 1);
+    Console.WriteLine("< \u2191 / \u2193 > Selecionar opção         <ENTER> Confirmar");
+}
+
