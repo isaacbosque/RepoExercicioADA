@@ -35,6 +35,10 @@ namespace POOExercicio
                 {
                     salario = SalarioMinimo;
                 }
+                else
+                {
+                    salario = value;
+                }
 
             }
         }
@@ -42,7 +46,7 @@ namespace POOExercicio
         public DateTime DataDeContratacao { get; }
         public double SalarioMensal { get; }
 
-        public Empregado(string pNome, string sobrenome, string matricula, int idade, DateTime dataNascimento, DateTime dataContratacao, double salario)
+        public Empregado(string pNome, string sobrenome, string matricula, int idade, DateTime dataNascimento, DateTime dataContratacao, double salario, string cargo)
         {
             PNome = pNome;
             Sobrenome = sobrenome;
@@ -51,6 +55,7 @@ namespace POOExercicio
             DataNascimento = dataNascimento;
             DataContratacao = dataContratacao;
             Salario = salario;
+            Cargo = cargo;
         }
 
         public Empregado(string pNome, string sobrenome, int idade, DateTime dataNascimento)
@@ -64,7 +69,7 @@ namespace POOExercicio
 
         public void ImprimirEmpregado()
         {
-            Console.WriteLine($"Meu nome é {PNome} {Sobrenome} e recebo {salario}");
+            Console.WriteLine($"Meu nome é {PNome} {Sobrenome} e recebo {salario} meu cargo é {Cargo}");
         }
 
         public void ReceberAumento()

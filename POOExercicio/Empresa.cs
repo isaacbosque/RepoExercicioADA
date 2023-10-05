@@ -39,7 +39,7 @@ namespace POOExercicio
             }
             public void ContratarEmpregado()
             {
-                string pNome = "", sobrenome = "", matricula = "";
+                string pNome = "", sobrenome = "", matricula = "", cargo = "";
                 int idade = 0;
                 DateTime dataDeNascimento = DateTime.MinValue, dataDeContratacao = DateTime.MinValue;
                 double salarioMensal = 0;
@@ -57,6 +57,8 @@ namespace POOExercicio
                     Console.WriteLine("Digite a data de nascimento do empregado");
                     dataDeNascimento = DateTime.Parse(Console.ReadLine());
                     dataDeContratacao = DateTime.Now;
+                    Console.WriteLine("Digite o cargo do empregado");
+                    cargo = Console.ReadLine();
                     Console.WriteLine("Digite o salário do empregado");
                     salarioMensal = double.Parse(Console.ReadLine());
                     Console.WriteLine("Aperte enter para finalizar o cadastro!");
@@ -67,7 +69,9 @@ namespace POOExercicio
                 }
 
                 if(salarioMensal != 0 && dataDeNascimento != DateTime.MinValue)
-                    empregados.Add(new Empregado(pNome, sobrenome, matricula, idade, dataDeNascimento, dataDeContratacao, salarioMensal));
+                {
+                    empregados.Add(new Empregado(pNome, sobrenome, matricula, idade, dataDeNascimento, dataDeContratacao, salarioMensal, cargo));
+                }  
                 else
                     empregados.Add(new Empregado(pNome, sobrenome, idade, dataDeNascimento));
             }
