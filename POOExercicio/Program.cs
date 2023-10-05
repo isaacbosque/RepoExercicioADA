@@ -1,23 +1,29 @@
 ﻿using POOExercicio;
+using System;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
         Empresa empresa = new Empresa();
-        ImprimirMenu();
+        Console.SetWindowSize(120, 30);
+        ImprimirMenu(empresa);
+        
     }
 
-    static void ImprimirMenu()
+    static void ImprimirMenu( Empresa empresa)
     {
         Dictionary<int, string> opcoes = new Dictionary<int, string>();
         int posicaoYMenu = Console.BufferHeight / 2;
         int posicaoXMenu = Console.BufferWidth / 2;
         int itemSelecionado = 0;
 
-        opcoes.Add(0, "Iniciar Jogo");
-        opcoes.Add(1, "Como jogar?");
-        opcoes.Add(2, "Sair");
+        opcoes.Add(0, "Cadastrar empregado");
+        opcoes.Add(1, "Listar todos os empregados cadastrados");
+        opcoes.Add(2, "Promover um empregado");
+        opcoes.Add(3, "Demitir um empregado");
+        opcoes.Add(4, "Listar o salário anual de um empregado");
+        opcoes.Add(5, "Fechar programa");
 
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.CursorVisible = false;
@@ -76,8 +82,71 @@ internal class Program
                     break;
                 case ConsoleKey.Enter:
                     if (itemSelecionado == 0)
-                        return;
+                    {
+                        empresa.ContratarEmpregado();
+                        Console.ReadKey();
+                    }
+                        
                     if (itemSelecionado == 1)
+                    {
+                        empresa.ListarEmpregados();
+                        Console.ReadKey();
+                    }
+                        
+                    if (itemSelecionado == 2)
+                    {
+                        try
+                        {
+                            string pNome = "", sobrenome = "", cargo = "";
+                            Console.WriteLine("Digite o primeiro nome do empregado");
+                            pNome = Console.ReadLine();
+                            Console.WriteLine("Digite o sobrenome do empregado");
+                            sobrenome = Console.ReadLine();
+                            Console.WriteLine("Digite o novo cargo do empregado");
+                            cargo = Console.ReadLine();
+                            empresa.PromoverEmpregado(pNome,sobrenome,cargo);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+                        Console.ReadKey();
+                    }
+                    if (itemSelecionado == 3)
+                    {
+                        try
+                        {
+                            string pNome = "", sobrenome = "", cargo = "";
+                            Console.WriteLine("Digite o primeiro nome do empregado");
+                            pNome = Console.ReadLine();
+                            Console.WriteLine("Digite o sobrenome do empregado");
+                            sobrenome = Console.ReadLine();
+                            empresa.DemitirEmpregado(pNome, sobrenome);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+                        Console.ReadKey();
+                    }
+                    if (itemSelecionado == 4)
+                    {
+                        try
+                        {
+                            string pNome = "", sobrenome = "", cargo = "";
+                            Console.WriteLine("Digite o primeiro nome do empregado");
+                            pNome = Console.ReadLine();
+                            Console.WriteLine("Digite o sobrenome do empregado");
+                            sobrenome = Console.ReadLine();
+                            empresa.CalcularSalarioAnual(pNome, sobrenome);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+                        Console.ReadKey();
+                    }
+                    if (itemSelecionado == 5)
                         System.Environment.Exit(1);
                     break;
                 default:

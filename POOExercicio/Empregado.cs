@@ -59,16 +59,18 @@ namespace POOExercicio
             Sobrenome = sobrenome;
             Idade = idade;
             DataNascimento = dataNascimento;
+            Salario = 0;
         }
 
         public void ImprimirEmpregado()
         {
-            Console.WriteLine($"Meu nome é {PNome} {Sobrenome} e recebo {Salario}");
+            Console.WriteLine($"Meu nome é {PNome} {Sobrenome} e recebo {salario}");
         }
 
         public void ReceberAumento()
         {
             salario *=  1.1;
+            salario = Math.Round(salario,2);
         }
 
        
