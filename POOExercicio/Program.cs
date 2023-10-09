@@ -1,11 +1,10 @@
 ﻿using POOExercicio;
-using System;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        Empresa empresa = new Empresa();
+        Empresa empresa = new Empresa("Ataccadão", "Grande", "Atacado / Varejo");
         Console.SetWindowPosition(0, 0);
         Console.CursorVisible = false;
         Console.SetWindowSize(120, 30);

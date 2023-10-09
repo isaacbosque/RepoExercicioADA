@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace POOExercicio
+﻿namespace POOExercicio
 {
     internal class Empresa
     {
@@ -16,6 +9,14 @@ namespace POOExercicio
 
             public string Setor { get; set; } = "";
 
+            
+            internal Empresa(string nome, string porteEmpresa, string setor) {
+                this.empregados = new();
+                Nome = nome;
+                PorteEmpresa = porteEmpresa;
+                Setor = setor;
+            }
+        
             /// <summary>
             /// Concede um aumento de 10% a um funcionário específico
             /// </summary>
