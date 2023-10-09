@@ -33,7 +33,7 @@ namespace POOExercicio
             {
                 if(value < SalarioMinimo)
                 {
-                    salario = SalarioMinimo;
+                    salario = SalarioMinimo; //Garante que o valor do salário não seja menor que o salário mínimo
                 }
                 else
                 {
@@ -46,6 +46,7 @@ namespace POOExercicio
         public DateTime DataDeContratacao { get; }
         public double SalarioMensal { get; }
 
+        // Construtor para caso todos os valores sejam fornecidos
         public Empregado(string pNome, string sobrenome, string matricula, int idade, DateTime dataNascimento, DateTime dataContratacao, double salario, string cargo)
         {
             PNome = pNome;
@@ -58,13 +59,14 @@ namespace POOExercicio
             Cargo = cargo;
         }
 
+        // Construtor para caso sejam fornecidos apenas dados básicos
         public Empregado(string pNome, string sobrenome, int idade, DateTime dataNascimento)
         {
             PNome = pNome;
             Sobrenome = sobrenome;
             Idade = idade;
             DataNascimento = dataNascimento;
-            Salario = 0;
+            Salario = 0; //Define salário como 0 por padrão
         }
 
         public void ImprimirEmpregado()

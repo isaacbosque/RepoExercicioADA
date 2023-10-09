@@ -12,3 +12,17 @@ C:\Users\Isaac\source\repos\POOExercicio\POOExercicio\obj\Debug\net6.0\refint\PO
 C:\Users\Isaac\source\repos\POOExercicio\POOExercicio\obj\Debug\net6.0\POOExercicio.pdb
 C:\Users\Isaac\source\repos\POOExercicio\POOExercicio\obj\Debug\net6.0\POOExercicio.genruntimeconfig.cache
 C:\Users\Isaac\source\repos\POOExercicio\POOExercicio\obj\Debug\net6.0\ref\POOExercicio.dll
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\bin\Debug\net6.0\POOExercicio.exe
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\bin\Debug\net6.0\POOExercicio.deps.json
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\bin\Debug\net6.0\POOExercicio.runtimeconfig.json
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\bin\Debug\net6.0\POOExercicio.dll
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\bin\Debug\net6.0\POOExercicio.pdb
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\POOExercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\POOExercicio.AssemblyInfoInputs.cache
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\POOExercicio.AssemblyInfo.cs
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\POOExercicio.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\POOExercicio.dll
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\refint\POOExercicio.dll
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\POOExercicio.pdb
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\POOExercicio.genruntimeconfig.cache
+C:\Users\mauri\OneDrive\Documentos\Projects\TransformaDev\Modulo 2\Exercícios\POO - Exercicio 2\RepoExercicioADA\POOExercicio\obj\Debug\net6.0\ref\POOExercicio.dll

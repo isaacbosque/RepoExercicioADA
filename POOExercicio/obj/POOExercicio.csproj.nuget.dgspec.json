@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Isaac\\source\\repos\\POOExercicio\\POOExercicio\\POOExercicio.csproj": {}
+    "C:\\Users\\mauri\\OneDrive\\Documentos\\Projects\\TransformaDev\\Modulo 2\\Exercícios\\POO - Exercicio 2\\RepoExercicioADA\\POOExercicio\\POOExercicio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Isaac\\source\\repos\\POOExercicio\\POOExercicio\\POOExercicio.csproj": {
+    "C:\\Users\\mauri\\OneDrive\\Documentos\\Projects\\TransformaDev\\Modulo 2\\Exercícios\\POO - Exercicio 2\\RepoExercicioADA\\POOExercicio\\POOExercicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Isaac\\source\\repos\\POOExercicio\\POOExercicio\\POOExercicio.csproj",
+        "projectUniqueName": "C:\\Users\\mauri\\OneDrive\\Documentos\\Projects\\TransformaDev\\Modulo 2\\Exercícios\\POO - Exercicio 2\\RepoExercicioADA\\POOExercicio\\POOExercicio.csproj",
         "projectName": "POOExercicio",
-        "projectPath": "C:\\Users\\Isaac\\source\\repos\\POOExercicio\\POOExercicio\\POOExercicio.csproj",
-        "packagesPath": "C:\\Users\\Isaac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Isaac\\source\\repos\\POOExercicio\\POOExercicio\\obj\\",
+        "projectPath": "C:\\Users\\mauri\\OneDrive\\Documentos\\Projects\\TransformaDev\\Modulo 2\\Exercícios\\POO - Exercicio 2\\RepoExercicioADA\\POOExercicio\\POOExercicio.csproj",
+        "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mauri\\OneDrive\\Documentos\\Projects\\TransformaDev\\Modulo 2\\Exercícios\\POO - Exercicio 2\\RepoExercicioADA\\POOExercicio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Isaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
